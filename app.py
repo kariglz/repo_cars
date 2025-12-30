@@ -30,7 +30,7 @@ if disp_button:
 
     # Crear una gráfica de dispersión utilizando plotly.graph_objects
     fig_disp = go.Figure(data=go.Scatter(
-        x=car_data['year'],
+        x=car_data['model_year'],
         y=car_data['price'],
         mode='markers',
         marker=dict(size=5, color='LightSkyBlue', opacity=0.6)
